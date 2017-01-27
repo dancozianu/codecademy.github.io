@@ -1,2 +1,2 @@
-# Dan-s-repository
+# dancozianu
 repository for 1st project
