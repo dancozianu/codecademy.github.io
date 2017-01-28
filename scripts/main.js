@@ -15,14 +15,14 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
   var myName = prompt('Va rugam introduceti numele dumneavoastra');
   localStorage.setItem('name', myName);
-  myHeading.innerHTML = 'Bine ati venit, ' + myName;
+  myHeading.innerHTML = 'Bine ati venit pe website-ul Cont Activ, ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Bine ati venit, ' + storedName;
+  myHeading.innerHTML = 'Bine ati venit pe website-ul Cont Activ, ' + storedName;
 }
 
 myButton.onclick = function() {
