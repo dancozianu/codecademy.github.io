@@ -13,16 +13,16 @@ var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
-  var myName = prompt('Please enter your name.');
+  var myName = prompt('Va rugam introduceti numele dumneavoastra');
   localStorage.setItem('name', myName);
-  myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+  myHeading.innerHTML = 'Bine ati venit, ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+  myHeading.innerHTML = 'Bine ati venit, ' + storedName;
 }
 
 myButton.onclick = function() {
