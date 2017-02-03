@@ -66,3 +66,8 @@ a:active {
   color: #CDFEAA;
 }
 
+body nav ul {
+border-left: 2px;
+  padding-left:2px;
+  margin-left: 2px;
+}
