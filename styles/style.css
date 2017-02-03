@@ -67,7 +67,7 @@ a:active {
 }
 
 body nav ul li {
-border-left: 2px;
-  padding-left:2px;
-  margin-left: 2px;
+border-left: 10px;
+  padding-left:10px;
+  margin-left: 10px;
 }
