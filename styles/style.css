@@ -37,7 +37,7 @@ img {
 
 p {background-image: url("contactiv.jpg");}
 
-a {
+a { display:inline-block;
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
