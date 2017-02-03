@@ -1,4 +1,6 @@
 html {
+    width: auto;
+  height: auto;
   font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
   font-family: 'Source Sans Pro', sans-serif;
     background-color:dimgray;
@@ -24,8 +26,7 @@ p {
 }
 
 body {
-  width: auto;
-  height:auto;
+
   margin: 0 auto;
   background-color:gray;
   padding: 0 20px 20px 20px;
