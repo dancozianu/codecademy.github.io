@@ -43,7 +43,7 @@ body nav ul li { display:inline-block;
 border-left: 10px;
   padding-left:10px;
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 2;
 }
 
@@ -53,6 +53,8 @@ a {
   padding: 2px 1px 0;
   font-size: 16px;    
   text-align: center;
+  border-radius: 20px;
+    border-image: linear-gradient (to bottom, green, blue);
 }
 
 a:link {
