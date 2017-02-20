@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    $(".pull-me").click(function(){
+        $(".panel").slideToggle('slow')    
+    }); 
+});
+
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -9,7 +15,13 @@ myImage.onclick = function() {
     }
 }
 
-$(document).ready(function() {
+$(document).ready(function(){
+    $(".pull-me").click(function(){
+        $(".panel").slideToggle('slow')    
+    }); 
+});
+
+/* $(document).ready(function() {
     $('li').mouseenter(function() {
         $('li').fadeTo('fast',1);
     });
