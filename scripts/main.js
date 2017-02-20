@@ -9,6 +9,15 @@ myImage.onclick = function() {
     }
 }
 
+$(document).ready(function() {
+    $('li').mouseenter(function() {
+        $('li').fadeTo('fast',1);
+    });
+    $('li').mouseleave(function() {
+        $('li').fadeTo('fast',0.5);
+    });
+});
+
 /*var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
