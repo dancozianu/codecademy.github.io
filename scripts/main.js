@@ -10,5 +10,5 @@ myImage.onclick = function() {
 }
 
 $(document).ready(function(){
-    $('p').fadeOut('fast');
+    $('p').fadeOut('slow');
     });
