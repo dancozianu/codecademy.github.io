@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-  $('div').hover(
+  $('li').hover(
     function(){
      $(this).addClass('active');
     },
