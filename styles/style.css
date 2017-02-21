@@ -45,29 +45,6 @@ p {background-image: url("contactiv.jpg");
     padding-top: 40px;
  }
 
-
-/*li { display:inline-block;
-    border-left: 10px;
-    padding-left:10px;
-    margin-left: 10px;
-    font-size: 25px;    
-    text-align: center;
-    }
-
-a:visited {
-  color: darkgoldenrod;
-}
-
-a:hover {
-  border-bottom: 1px solid;
-  background-color: greenyellow;
-    border-radius: 10px;
-}
-
-a:active {
-  background-color: lightcoral;
-}*/
-
 a.adresaemail{font-size: 16px}
 
 .red{
