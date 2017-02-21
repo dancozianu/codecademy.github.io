@@ -71,6 +71,8 @@ a:active {
 a.adresaemail{font-size: 16px}
 
 .red{
+    width:auto
     background-color: yellow;
     color:blue;
+    font-size: 40px;
 }
