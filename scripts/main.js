@@ -1,7 +1,10 @@
 $(document).ready(function(){
-    $('p').click(function(){
-       $(this).fadeOut('slow');
+    $('div').click(function(){
+       $(this).fadeOut('fast');
 });
+    $('div').hover(function(){
+     $(this).addClass('red')   
+        });
 });
 var myImage = document.querySelector('img');
 
