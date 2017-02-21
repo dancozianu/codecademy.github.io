@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(document).keydown(function(){
-        $('form').animate({left:'+=200px'},500)
+        $('p').animate({left:'+=200px'},500)
         });
     });
 
