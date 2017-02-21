@@ -27,6 +27,12 @@ $(document).ready(function(){
         })
     });
 
+$(document).ready(function(){
+    $(document).keydown(function(){
+        $('adresaemail').animate({left:'+=200px'},500)
+        });
+    });
+
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
