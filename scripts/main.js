@@ -6,6 +6,20 @@ $(document).ready(function(){
      $(this).addClass('red')   
         });
 });
+
+$(document).ready(function(){
+
+  $('div').hover(
+    function(){
+     $(this).addClass('active');
+    },
+    function(){
+     $(this).removeClass('active');    
+    }
+  );
+
+});
+
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
