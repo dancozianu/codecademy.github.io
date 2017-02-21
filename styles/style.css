@@ -70,3 +70,8 @@ nav ul li {
 .active {
     background-color:#556677;
 }
+/* Name: */
+input {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 2em;
+}
