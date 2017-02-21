@@ -46,7 +46,7 @@ p {background-image: url("contactiv.jpg");
  }
 
 
-li { display:inline-block;
+/*li { display:inline-block;
     border-left: 10px;
     padding-left:10px;
     margin-left: 10px;
@@ -54,7 +54,7 @@ li { display:inline-block;
     text-align: center;
     }
 
-/*a:visited {
+a:visited {
   color: darkgoldenrod;
 }
 
@@ -79,7 +79,7 @@ a.adresaemail{font-size: 16px}
 }
 
 
-nav ul li a {
+nav ul li {
     border-radius: 5px;
     background-color: #ABCDEF;
     transition: background-color 0.5s ease;
