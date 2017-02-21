@@ -8,3 +8,7 @@ myImage.onclick = function() {
       myImage.setAttribute ('src','images/contactiv.jpg');
     }
 }
+
+$(document).ready(function(){
+    $('p').fadeOut('fast');
+    });
