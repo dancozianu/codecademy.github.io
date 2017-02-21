@@ -1,3 +1,6 @@
+$(document).ready(function(){
+    $('p').fadeOut('slow');
+    });
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -8,7 +11,3 @@ myImage.onclick = function() {
       myImage.setAttribute ('src','images/contactiv.jpg');
     }
 }
-
-$(document).ready(function(){
-    $('p').fadeOut('slow');
-    });
