@@ -20,6 +20,13 @@ $(document).ready(function(){
 
 });
 
+$(document).ready(function(){
+    $('input').focus(function(){
+        $(this).css('outline-style','solid');
+        $(this).css('outline-color','#FF0000');
+        })
+    });
+
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
