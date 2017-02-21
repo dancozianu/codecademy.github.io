@@ -1,6 +1,8 @@
 $(document).ready(function(){
-    $('p').fadeOut('slow');
-    });
+    $('p').click(function(){
+       $(this).fadeOut('slow');
+});
+});
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
