@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    $('div').click(function(){
+    $('p').click(function(){
        $(this).fadeOut('fast');
 });
-    $('div').hover(function(){
+    $('p').hover(function(){
      $(this).addClass('red')   
         });
 });
