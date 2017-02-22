@@ -32,7 +32,9 @@ $(document).ready(function(){
         $(this).effect('slide');
         });
     });*/
-
+$(document).ready(function(){
+    $('ol').sortable();
+    });
 
 
 var myImage = document.querySelector('img');
