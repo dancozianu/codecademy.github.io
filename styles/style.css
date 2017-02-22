@@ -81,8 +81,11 @@ input {
     }
 
 div {
-    position:absolute;
-    left:300px;
-    font-size: 10px;
+    display: block;
+margin: 0 auto;
+    
+    /*position:absolute;
+    left:300px;*/
+    font-size: 20px;
     color: green;
 }
