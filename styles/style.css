@@ -98,6 +98,7 @@ ol li {
 	font-size: 1em;
 	height: 16px;
 	font-family: Verdana, Arial, Sans-Serif;
+	width:auto;
 }
 
 ol .ui-selected {
