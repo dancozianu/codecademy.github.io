@@ -1,14 +1,4 @@
 $(document).ready(function(){
-    $('p').click(function(){
-       $(this).fadeOut('fast');
-});
-    $('p').hover(function(){
-     $(this).addClass('red')   
-        });
-});
-
-$(document).ready(function(){
-
   $('ul li').hover(
     function(){
      $(this).addClass('active');
