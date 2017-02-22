@@ -33,6 +33,10 @@ $(document).ready(function(){
         });
     })
 
+$(document).ready(function(){
+    $('form').draggable();
+    })
+
 
 var myImage = document.querySelector('img');
 
