@@ -39,8 +39,8 @@ body {
 
 img {
     display: flex;
-   justify-content: flex-end;
-    width:100rem;
+   position:absolute;
+    right:0;    
     }
 
 
