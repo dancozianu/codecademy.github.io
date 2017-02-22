@@ -34,7 +34,7 @@ $(document).ready(function(){
     })
 
 $(document).ready(function(){
-    $('form').draggable();
+    $('.adresaemail').draggable();
     })
 
 
