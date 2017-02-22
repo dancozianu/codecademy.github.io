@@ -33,9 +33,10 @@ $(document).ready(function(){
         });
     }); */
 
-/* $(document).ready(function(){
+/* sortable list */
+$(document).ready(function(){
     $('ol').sortable();
-    }); */
+    }); 
 
 
 var myImage = document.querySelector('img');
