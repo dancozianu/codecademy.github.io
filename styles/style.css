@@ -37,10 +37,9 @@ body {
 
 
 img {
-    position:absolute;
-  display: block;
-  margin: 0 auto;
-   right: 260px;
+  position:absolute;
+  display: inline-block;
+    right: 260px;
     bottom:40px;
 }
 
