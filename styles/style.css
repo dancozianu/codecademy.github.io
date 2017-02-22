@@ -40,7 +40,8 @@ body {
 img {
     display: flex;
    position:absolute;
-    right:0;    
+    right:2rem;
+    bottom:2rem;
     }
 
 
