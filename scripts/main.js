@@ -27,6 +27,13 @@ $(document).ready(function(){
         });
     });
 
+$(document).ready(function(){
+    $('div').click(function(){
+        $(this).effect('explode');
+        });
+    })
+
+
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
