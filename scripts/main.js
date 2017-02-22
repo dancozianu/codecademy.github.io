@@ -26,15 +26,16 @@ $(document).ready(function(){
         $(this).css('outline-color','#FF0000');
         });
     });
-/*sliding div
+/*sliding div*/
 $(document).ready(function(){
     $('div').click(function(){
         $(this).effect('slide');
         });
-    });*/
-$(document).ready(function(){
-    $('ol').sortable();
     });
+
+/* $(document).ready(function(){
+    $('ol').sortable();
+    }); */
 
 
 var myImage = document.querySelector('img');
