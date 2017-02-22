@@ -27,10 +27,6 @@ $(document).ready(function(){
         });
     });
 
-$(document).ready(function(){
-    $('.adresaemail').animate({ left: '+=100px'}, 1000);
-});
-
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
