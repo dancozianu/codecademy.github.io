@@ -37,10 +37,11 @@ body {
 
 
 img {
-    position:relative;
+    position:absolute;
   display: block;
   margin: 0 auto;
-   right: 60px;
+   right: 260px;
+    bottom:40px;
 }
 
 
@@ -83,11 +84,7 @@ input {
     }
 
 div {
-    
-    /*position:absolute;
-    left:300px;*/
     font-size: 15px;
     color: green;
     text-align:right;
-    
-}
+    }
