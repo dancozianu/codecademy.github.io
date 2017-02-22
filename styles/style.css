@@ -38,7 +38,7 @@ body {
 
 img {
     display: inline-block;
-   
+   position:relative;
 }
 
 
