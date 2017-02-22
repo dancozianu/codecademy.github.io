@@ -26,17 +26,7 @@ $(document).ready(function(){
         $(this).css('outline-color','#FF0000');
         });
     });
-/*sliding div
-$(document).ready(function(){
-    $('div').click(function(){
-        $(this).effect('slide');
-        });
-    }); */
-
-/* sortable list */
-$(document).ready(function(){
-    $('ol').sortable();
-    }); 
+ 
 
 
 var myImage = document.querySelector('img');
