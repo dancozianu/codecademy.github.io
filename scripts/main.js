@@ -27,7 +27,9 @@ $(document).ready(function(){
         });
     });
  
-
+$(document).ready(function(){
+    $('#menu').accordion();
+    });
 
 var myImage = document.querySelector('img');
 
