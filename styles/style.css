@@ -39,9 +39,8 @@ body {
 
 img {
     display: flex;
-   position:relative;
-    left:120em;
-}
+   align-items: right;
+    }
 
 
 a.adresaemail{font-size: 16px}
