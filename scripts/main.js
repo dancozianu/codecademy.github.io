@@ -26,10 +26,10 @@ $(document).ready(function(){
         $(this).css('outline-color','#FF0000');
         });
     });
-
+/*sliding video*/
 $(document).ready(function(){
-    $('div').click(function(){
-        $(this).effect('explode');
+    $('iframe').click(function(){
+        $(this).effect('slide');
         });
     })
 
