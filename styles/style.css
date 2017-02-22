@@ -38,7 +38,7 @@ body {
 
 
 img {
-    display: block;
+    display: flex;
    position:relative;
     left:120em;
 }
