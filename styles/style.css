@@ -37,9 +37,10 @@ body {
 
 
 img {
+    position:relative;
   display: block;
   margin: 0 auto;
-   text-align:right;
+   right: 60px;
 }
 
 
