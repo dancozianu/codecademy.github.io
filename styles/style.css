@@ -60,6 +60,7 @@ nav ul li {
     border:1px solid #ccc;
     margin-top:10px;
     text-decoration:none;
+    position:relative;
 }
 
 nav ul li:active{
