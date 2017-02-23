@@ -42,6 +42,7 @@ img {
    position:absolute;
     right:3rem;
     bottom:0.8rem;
+    flex-wrap: wrap;
     }
 
 
