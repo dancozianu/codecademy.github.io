@@ -62,11 +62,16 @@ nav ul li {
     text-decoration:none;
 }
 
-/*
+nav ul li:active{
+            top:3px;
+                }
+
+
 .active {
     background-color:#556677;
-    top:3px; */
-}
+        }
+
+
 /* Name: */
 form {
     font-family: Verdana, Arial, Sans-Serif;
