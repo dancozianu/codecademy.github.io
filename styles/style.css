@@ -67,10 +67,9 @@ nav ul li {
 /* Name: */
 form {
     font-family: Verdana, Arial, Sans-Serif;
-    padding:1em;
+    padding:1rem;
     margin:10px;
-    padding:10px;
-    }
+     }
 
 #adresasediu {
     font-size: 15px;
