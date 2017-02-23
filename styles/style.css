@@ -62,9 +62,10 @@ nav ul li {
     text-decoration:none;
 }
 
+/*
 .active {
     background-color:#556677;
-    top:3px;
+    top:3px; */
 }
 /* Name: */
 form {
